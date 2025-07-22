@@ -1,0 +1,38 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambiente Virtual
+venv/
+env/
+*.venv/
+
+# Arquivos de Configuração de IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Arquivos de Log
+*.log
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de Build
+build/
+dist/
+*.egg-info/
+
+# Arquivos de Testes Temporários
+*.coveragerc
+.coverage
+nosetests.xml
+test_*.log
+
+# Dependências (se não usar requirements.txt)
+Pipfile.lock
+poetry.lock
