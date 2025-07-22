@@ -13,8 +13,11 @@ def get_live_change_by_currency(currency: str) -> float:
         data = response.json()
         quotes = data["quotes"]
 
-        response.close()
-
-        return quotes[f'USD{currency}']
-    except:
-        print("An exception occurred")
+        rate = quotes[f'USD{currency}']
+        if rate is None:
+            raise ValueError(f"Moeda '{currency}' não encontrada na resposta da API.")
+            
+        return rate
+    except Exception as e:
+        print(f"Ocorreu um erro ao buscar a cotação: {e}")
+        return None
