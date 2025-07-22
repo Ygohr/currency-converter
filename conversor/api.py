@@ -19,5 +19,4 @@ def get_live_change_by_currency(currency: str) -> float:
             
         return rate
     except Exception as e:
-        print(f"Ocorreu um erro ao buscar a cotação: {e}")
-        return None
+        raise ValueError(f"Ocorreu um erro ao buscar a cotação: {e}")
