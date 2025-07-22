@@ -1,28 +1,29 @@
-# 💱 Conversor de Moedas
+# 💱 Currency Converter
 
-Um projeto simples em Python que converte valores entre moedas usando uma API de câmbio em tempo real.
+A simple Python project that converts values between currencies using a real-time exchange rate API.
 
-## 📌 Funcionalidades
+## 📌 Features
 
-- Conversão entre moedas utilizando taxas de câmbio atualizadas
-- Suporte a múltiplas moedas (USD, BRL, EUR, etc.)
-- Interface simples via linha de comando (CLI)
-- Estrutura modular e fácil de expandir
+- Currency conversion using updated exchange rates
+- Support for multiple currencies (USD, BRL, EUR, etc.)
+- Simple command-line interface (CLI)
+- Modular and easy-to-expand structure
 
 ---
 
-## 🛠️ Tecnologias e Pacotes
+## 🛠️ Technologies and Packages
 
 - Python 3.10+
-- [requests](https://pypi.org/project/requests/) — para chamadas HTTP à API de câmbio
-- [python-dotenv](https://pypi.org/project/python-dotenv/) - para manejo das variáveis de ambiente do projeto
+- [requests](https://pypi.org/project/requests/) — for making HTTP requests to the exchange rate API
+- [python-dotenv](https://pypi.org/project/python-dotenv/) — for managing the project's environment variables
 
 ---
 
-## 📦 Instalação e Execução
+## 📦 Installation and Running
 
-### 1. Clone o repositório
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/seu-usuario/conversor-moedas.git
-cd conversor-moedas
+git clone https://github.com/your-username/currency-converter.git
+cd currency-converter
+```
