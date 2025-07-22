@@ -36,3 +36,5 @@ test_*.log
 # Dependências (se não usar requirements.txt)
 Pipfile.lock
 poetry.lock
+
+.env

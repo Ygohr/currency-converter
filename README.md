@@ -15,7 +15,7 @@ Um projeto simples em Python que converte valores entre moedas usando uma API de
 
 - Python 3.10+
 - [requests](https://pypi.org/project/requests/) — para chamadas HTTP à API de câmbio
-- [rich](https://pypi.org/project/rich/) — saída colorida e formatada no terminal (opcional)
+- [python-dotenv](https://pypi.org/project/python-dotenv/) - para manejo das variáveis de ambiente do projeto
 
 ---
 
